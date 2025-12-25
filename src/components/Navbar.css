@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+
+
+
+header{
+    background-image: url(../assets/Mask.png);
+    background-size: 100%;
+    width: 100%;
+    height: 690px;
+    
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+li a{
+    color: white;
+}
+.header_meni{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+h1{
+     font-family: 'Alfa Slab One', serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 70px;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+color: #ffffff;
+width: 800px
+}
+
+.text_horo{
+    padding-top: 25px;
+    padding-bottom: 35px;
+   font-family: 'Karla', sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+width: 700px;
+
+}
+
+.header_btn{
+    display: flex;
+    gap: 20px;
+}
+.butrn{
+    width: 180px;
+height: 45px;
+border-radius: 8px;
+border: none;
+font-family: Karla;
+font-weight: 700;
+font-style: Bold;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+background-color: #0E7DB9;
+
+
+}
+
+.butrn1{
+    width: 160px;
+height: 45px;
+border-radius: 8px;
+border: none;
+font-family: Karla;
+font-weight: 700;
+font-style: Bold;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+background: none;
+border: 1px solid white;
+
+}

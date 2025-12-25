@@ -1,14 +1,18 @@
 import React from 'react'
 import Header from './components/Header'
-import Navbar from './components/Footer'
+import Navbar from './components/Navbar'
 import './App.css'
+import Home from './components/Home'
+import Ciemdi from './components/Ciemdi'
 
 function App() {
 
   return (
     <>
-      <Header/>
       <Navbar/>
+      <Home/>
+      <Ciemdi/>
+      <Header/>
     </>
   )
 }

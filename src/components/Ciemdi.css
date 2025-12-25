@@ -1,0 +1,67 @@
+.why {
+  background: #0b2d4a;
+  color: #fff;
+  padding: 40px 60px;
+  height: 790px;
+}
+
+.caption {
+  color: #6fb6d8;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  
+  font-size: 40px;
+  margin: 10px 0 50px;
+}
+.titi_why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.why-wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  flex: 2;
+}
+
+.item h4 {
+  margin: 14px 0 10px;
+  font-size: 15px;
+}
+
+.item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cfd9e3;
+}
+
+.icon {
+  font-size: 26px;
+  color: #6fb6d8;
+}
+
+.why-image {
+  flex: 1;
+  height: 520px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/Frame\ 19.png);
+}
+
+#igem{
+    width: 1264.9px;
+}

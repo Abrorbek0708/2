@@ -1,8 +1,12 @@
-function Header() {
+
+
+
+import React from 'react'
+import "./header.css"
+const Header = () => {
   return (
-    <>
-      <h1>Welcome to My Website</h1>
-    </>
-  );
+    <div></div>
+  )
 }
-export default Header;
+
+export default Header

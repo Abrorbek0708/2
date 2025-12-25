@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.programs {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.caption {
+  color: #5aa6c8;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 36px;
+  margin: 10px 0 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  width: 520px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.image {
+  height: 220px;
+}
+
+.placeholder {
+   background-size: cover;
+  background-image: url(../assets/paskitbol.png);
+
+  background-position: center;
+}
+
+.real {
+  background-size: cover;
+  background-image: url(../assets/paskitbol.png);
+  background-position: center;
+  
+}
+
+.content {
+  padding: 25px;
+}
+
+.age {
+  color: #5aa6c8;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content h3 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #0b74a5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn:hover {
+  background: #095c82;
+}

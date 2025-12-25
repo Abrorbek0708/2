@@ -1,5 +1,5 @@
 import Header from './components/Header'
-import Navbar from './components/Navbar'
+import Ss from './components/Ss'
 import './App.css'
 
 function App() {
@@ -7,8 +7,9 @@ function App() {
 
   return (
     <>
+      
       <Header/>
-      <Navbar/>
+      <Ss/>
     </>
   )
 }
